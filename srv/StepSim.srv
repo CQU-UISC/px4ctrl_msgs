@@ -1,0 +1,4 @@
+px4ctrl_msgs/Command command
+bool command_valid
+---
+px4ctrl_msgs/State state

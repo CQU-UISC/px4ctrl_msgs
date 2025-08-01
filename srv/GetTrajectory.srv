@@ -1,0 +1,6 @@
+float64 time
+int32 n
+float64 dt
+bool use_rhc
+---
+px4ctrl_msgs/State[] trajectory
