@@ -1,5 +1,4 @@
-builtin_interfaces/Time stamp
-string frame_id
+std_msgs/Header header 
 float64[4] u
 float64[3] pos
 float64[3] vel

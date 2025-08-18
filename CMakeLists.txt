@@ -11,8 +11,9 @@ find_package(std_msgs REQUIRED)
 rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/Command.msg"
   "msg/State.msg"
+  "msg/Setpoint.msg"
   "srv/StepSim.srv"
-  "srv/GetTrajectory.srv"
+  "srv/GetReference.srv"
   DEPENDENCIES builtin_interfaces std_msgs
 )
 

@@ -1,0 +1,5 @@
+bool use_rhc
+int32 n
+float64 dt
+---
+px4ctrl_msgs/Setpoint[] reference
